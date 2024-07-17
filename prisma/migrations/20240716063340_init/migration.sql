@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE "Todo" (
+CREATE TABLE "Page" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "title" TEXT NOT NULL,
     "isCompleted" BOOLEAN NOT NULL,
