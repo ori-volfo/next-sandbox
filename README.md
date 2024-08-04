@@ -2,7 +2,25 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Get the project by cloning the repository:
+```
+ git clone https://github.com/ori-volfo/next-sandbox.git
+```
+
+Install the dependencies:
+```bash
+npm install
+````
+
+Add .env file to your root folder with the followinf line:
+``
+DATABASE_URL="file:./dev.db"
+``
+
+
+```bash
+
+Then, run the development server:
 
 ```bash
 npm run dev
